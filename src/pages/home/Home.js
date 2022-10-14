@@ -65,8 +65,6 @@ function Home() {
 
 export default Home;
 
-
-
 /* // 8. Verify what HTML elements need to be returned in the homepage:
          // You want to return a <Header/> component next to the <main/> component.
          //Within the <main/> element you want to have a <section/> element.

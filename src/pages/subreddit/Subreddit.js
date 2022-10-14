@@ -58,8 +58,6 @@ function Subreddit() {
 export default Subreddit;
 
 
-
-
 //9. Make an API call to fetch data about a specifick subreddit:GET https://www.reddit.com/r/{SUBREDDIT-HIER}/about.json
 //10. UseParams() hook should be used to allow dynamic parameters {id} to be injected in the fetched url as this url will be dynamic.
 //Where?: in the main Function
@@ -77,7 +75,6 @@ export default Subreddit;
 <p>{details.public_description}</p>
 <h3>Number of subscribers</h3>
 <p>{details.subscribers}</p>
-
 <span className="back-link-wrapper">
                   <BackIcon className="back-icon"/>
                   <Link to="/">Take me back</Link>
